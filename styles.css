@@ -1,0 +1,12 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+input {
+    display: block;
+    margin-bottom:  20px;
+}
+
+.old {
+    background-color: green;
+}
