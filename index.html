@@ -4,8 +4,14 @@
     <link rel="stylesheet" type="text/css" href="styles.css">
 </head>
 <body>
-    <input type="text" id="card1" placeholder="Enter card name">
-    <input type="text" id="card2" placeholder="Enter card name">
+    <div>
+        <input type="text" id="card1" placeholder="Enter card name">
+        <input type="submit" value="Submit Card  1" onclick="fetchCardInfo(document.getElementById('card1').value, 'card1Info')">
+    </div>
+    <div>
+        <input type="text" id="card2" placeholder="Enter card name">
+        <input type="submit" value="Submit Card  2" onclick="fetchCardInfo(document.getElementById('card2').value, 'card2Info')">
+    </div>
     <div id="card1Info"></div>
     <div id="card2Info"></div>
     <script src="script.js"></script>
